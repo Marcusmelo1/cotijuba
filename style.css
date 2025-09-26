@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@media (max-width: 800px) {
+
+header{ 
+ background-image: url(b2ap3_large_COTIJUBA2.jpg);
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+display: flex;
+height:400px;
+width: 100%;
+
+ 
+ 
+
+}
+
+
+
+
+}
+.inicio{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 80px;
+
+
+    
+ 
+    
+}
+
+.cabeca{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    height:400px;
+    width: 100%;
+
+}
+.descricao{
+    text-indent: 20px;
+    margin-top: 20px;
+    
+    color: rgb(255, 255, 255);
+    
+
+ 
+
+}
+#butao{
+    display: inline-block;
+    justify-content: flex-end;
+    background-color: rgb(1, 83, 35);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+    color: white;
+
+}
+
