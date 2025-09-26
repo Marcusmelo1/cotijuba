@@ -102,7 +102,7 @@ width: 100%;
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
     .laodo {
         background-color: aliceblue;
     }
