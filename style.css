@@ -6,7 +6,7 @@
     overflow-x: hidden;
 }
 
-@media (max-width: 800px) {
+
 
 header{ 
  background-image: url(b2ap3_large_COTIJUBA2.jpg);
@@ -25,7 +25,7 @@ width: 100%;
 
 
 
-}
+
 .inicio{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -100,5 +100,11 @@ width: 100%;
     position: absolute;
     left: 18em;
 
+}
+
+@media (min-width: 800px) {
+    .laodo {
+        background-color: aliceblue;
+    }
 }
 
