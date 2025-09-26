@@ -95,7 +95,7 @@ width: 100%;
 #lado{ 
     height: 10em;
     border-radius: 5px;
-    justify-items: end;
+
     top: 50%;
     left: 50%;
     position: absolute;
@@ -103,9 +103,12 @@ width: 100%;
 
 }
 
-@media (min-width: 700px) {
-    .laodo {
+@media (min-width: 500px) {
+    #laodo {
         background-color: aliceblue;
+    }
+    header{
+        background-color: rgb(0, 0, 0);
     }
 }
 
