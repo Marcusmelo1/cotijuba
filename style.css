@@ -55,15 +55,50 @@ width: 100%;
 
 }
 #butao{
-    display: inline-block;
-    justify-content: flex-end;
+
+    position: absolute;
+    left: 8em;
+    margin-top: 20px;
     background-color: rgb(1, 83, 35);
     border-radius: 5px;
     padding: 10px;
     font-size: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
     color: white;
+    transition: 0.5;
+    box-shadow: rgba(0, 0, 0, 0.5);
+
+  
+    
+ 
+}
+#butao:hover {
+    background-color: rgb(252, 252, 252);
+    color: black;
+    transition: background-color .5s;
+}
+
+
+.titu {
+    display: flex;
+    margin: 20px;
+    color: rgb(80, 112, 31);
+    font-size: 2.5em;
+}
+.resu {
+  
+    font-size: 0.5em;
+    text-decoration: none;
+
+}
+
+#lado{ 
+    height: 10em;
+    border-radius: 5px;
+    justify-items: end;
+  
+    position: absolute;
+    left: 18em;
 
 }
 
